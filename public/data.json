@@ -6,7 +6,7 @@
     "experienceYears": 4,
     "tagline": "Crafting Videos That Keep People Watching.",
     "description": "I specialize in high-retention video editing for creators, brands, and agencies. From dynamic YouTube storytelling to cinematic commercials and snappy short-form content, I build narratives that capture attention in the first 3 seconds and keep viewers hooked until the end.",
-    "profileImage": "/images/profile.jpg",
+    "profileImage": "/images/profile.png",
     "cta": {
       "primary": {
         "text": "View Showreel",
@@ -20,7 +20,7 @@
     "showreel": {
       "title": "2026 Editing Showreel",
       "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
-      "thumbnail": "/images/showreel_thumb.jpg",
+      "thumbnail": "/images/showreel_thumb.png",
       "duration": "1:45"
     }
   },
@@ -68,7 +68,7 @@
       "title": "The Art of Solo Travel — Cinematic Travel Documentary",
       "category": "Cinematic",
       "description": "A high-end cinematic narrative following a trek through Norway. Crafted using raw log footage with intense foley, natural soundscapes, and heavy color styling.",
-      "thumbnail": "/images/project_commercial.jpg",
+      "thumbnail": "/images/project_commercial.png",
       "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
       "duration": "3:20",
       "client": "Nomad Journal"
@@ -78,7 +78,7 @@
       "title": "How I Built an AI Startup in 24 Hours — High-Retention Vlog",
       "category": "YouTube",
       "description": "A fast-paced tech vlog designed for maximum viewer retention. Features split-screen animations, kinetic typography, and custom illustrations explaining complex technical details.",
-      "thumbnail": "/images/project_youtube.jpg",
+      "thumbnail": "/images/project_youtube.png",
       "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
       "duration": "12:15",
       "client": "DevVlog Channel"
@@ -88,7 +88,7 @@
       "title": "Urban Flow — Streetwear Brand Commercial",
       "category": "Commercials",
       "description": "A high-energy, fast-paced commercial project featuring match cuts, speed ramps, and stylized VHS overlay assets designed to appeal to Gen-Z consumers.",
-      "thumbnail": "/images/project_short.jpg",
+      "thumbnail": "/images/project_short.png",
       "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
       "duration": "0:60",
       "client": "AeroWear Co."
@@ -98,7 +98,7 @@
       "title": "Future of VR Gaming — Tech Review & Explainer",
       "category": "YouTube",
       "description": "Detailed review editing featuring detailed overlay overlays, hardware zoom inserts, tracked visual callouts, and clean 3D motion graphics explaining VR optics.",
-      "thumbnail": "/images/project_corporate.jpg",
+      "thumbnail": "/images/project_corporate.png",
       "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
       "duration": "8:45",
       "client": "TechSphere"
@@ -108,7 +108,7 @@
       "title": "Micro-Doc: The 80-Year-Old Marathon Runner",
       "category": "Cinematic",
       "description": "An emotional mini-documentary focusing on storytelling, voiceover-driven structure, ambient sound design, and warm, cinematic tones.",
-      "thumbnail": "/images/project_commercial.jpg",
+      "thumbnail": "/images/project_commercial.png",
       "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
       "duration": "5:10",
       "client": "LifeStories"
@@ -118,7 +118,7 @@
       "title": "TikTok/Reels: 3 Hacks to Save 10 Hours of Editing",
       "category": "Shorts",
       "description": "Vertical format (9:16) video with bold, colored word-by-word captions, visual sound effect triggers, zooms, and jump cuts designed to maximize retention.",
-      "thumbnail": "/images/project_short.jpg",
+      "thumbnail": "/images/project_short.png",
       "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
       "duration": "0:45",
       "client": "EditPro Academy"
