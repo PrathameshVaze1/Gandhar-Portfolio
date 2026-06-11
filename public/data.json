@@ -1,0 +1,222 @@
+{
+  "personal": {
+    "name": "Alex Thorne",
+    "title": "Professional Video Editor & Storyteller",
+    "experience": "4+ Years of Professional Experience",
+    "experienceYears": 4,
+    "tagline": "Crafting Videos That Keep People Watching.",
+    "description": "I specialize in high-retention video editing for creators, brands, and agencies. From dynamic YouTube storytelling to cinematic commercials and snappy short-form content, I build narratives that capture attention in the first 3 seconds and keep viewers hooked until the end.",
+    "profileImage": "/images/profile.jpg",
+    "cta": {
+      "primary": {
+        "text": "View Showreel",
+        "link": "#showreel"
+      },
+      "secondary": {
+        "text": "Let's Connect",
+        "link": "#contact"
+      }
+    },
+    "showreel": {
+      "title": "2026 Editing Showreel",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "/images/showreel_thumb.jpg",
+      "duration": "1:45"
+    }
+  },
+  "services": [
+    {
+      "id": "youtube",
+      "title": "YouTube Editing & Retention Strategy",
+      "description": "High-retention editing tailored for the YouTube algorithm. Focuses on pacing, text callouts, sound design, and narrative hooks that optimize average percentage viewed (APV).",
+      "icon": "video"
+    },
+    {
+      "id": "short-form",
+      "title": "Short-Form Content (Reels, TikToks, Shorts)",
+      "description": "Fast-paced, high-energy editing designed to stop the scroll. Optimized for vertical layouts, including dynamic animated captions, sound effects, and rapid visual cuts.",
+      "icon": "smartphone"
+    },
+    {
+      "id": "commercial",
+      "title": "Commercials & Brand Promos",
+      "description": "Premium cinematic edits designed to build brand trust and drive conversions. Color graded to perfection, backed by custom sound design and slick motion graphics.",
+      "icon": "film"
+    },
+    {
+      "id": "motion-graphics",
+      "title": "Motion Graphics & VFX",
+      "description": "Sleek kinetic typography, custom logo animations, standard tracking, callouts, transitions, and screen replacements that elevate production value.",
+      "icon": "layers"
+    },
+    {
+      "id": "sound-design",
+      "title": "Sound Design & Audio Mixing",
+      "description": "Deep, immersive audio environments utilizing sound effects (SFX), foley, music ducking, and voice enhancement to create a rich multi-sensory experience.",
+      "icon": "volume-2"
+    },
+    {
+      "id": "color-grading",
+      "title": "Color Grading (Rec709 & Creative LUTS)",
+      "description": "Professional color correction and stylization. Matching multi-camera setups, repairing lighting issues, and applying creative looks to establish the correct mood.",
+      "icon": "palette"
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "title": "The Art of Solo Travel — Cinematic Travel Documentary",
+      "category": "Cinematic",
+      "description": "A high-end cinematic narrative following a trek through Norway. Crafted using raw log footage with intense foley, natural soundscapes, and heavy color styling.",
+      "thumbnail": "/images/project_commercial.jpg",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "duration": "3:20",
+      "client": "Nomad Journal"
+    },
+    {
+      "id": "project-2",
+      "title": "How I Built an AI Startup in 24 Hours — High-Retention Vlog",
+      "category": "YouTube",
+      "description": "A fast-paced tech vlog designed for maximum viewer retention. Features split-screen animations, kinetic typography, and custom illustrations explaining complex technical details.",
+      "thumbnail": "/images/project_youtube.jpg",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "duration": "12:15",
+      "client": "DevVlog Channel"
+    },
+    {
+      "id": "project-3",
+      "title": "Urban Flow — Streetwear Brand Commercial",
+      "category": "Commercials",
+      "description": "A high-energy, fast-paced commercial project featuring match cuts, speed ramps, and stylized VHS overlay assets designed to appeal to Gen-Z consumers.",
+      "thumbnail": "/images/project_short.jpg",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "duration": "0:60",
+      "client": "AeroWear Co."
+    },
+    {
+      "id": "project-4",
+      "title": "Future of VR Gaming — Tech Review & Explainer",
+      "category": "YouTube",
+      "description": "Detailed review editing featuring detailed overlay overlays, hardware zoom inserts, tracked visual callouts, and clean 3D motion graphics explaining VR optics.",
+      "thumbnail": "/images/project_corporate.jpg",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "duration": "8:45",
+      "client": "TechSphere"
+    },
+    {
+      "id": "project-5",
+      "title": "Micro-Doc: The 80-Year-Old Marathon Runner",
+      "category": "Cinematic",
+      "description": "An emotional mini-documentary focusing on storytelling, voiceover-driven structure, ambient sound design, and warm, cinematic tones.",
+      "thumbnail": "/images/project_commercial.jpg",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "duration": "5:10",
+      "client": "LifeStories"
+    },
+    {
+      "id": "project-6",
+      "title": "TikTok/Reels: 3 Hacks to Save 10 Hours of Editing",
+      "category": "Shorts",
+      "description": "Vertical format (9:16) video with bold, colored word-by-word captions, visual sound effect triggers, zooms, and jump cuts designed to maximize retention.",
+      "thumbnail": "/images/project_short.jpg",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "duration": "0:45",
+      "client": "EditPro Academy"
+    }
+  ],
+  "stats": [
+    {
+      "id": "views",
+      "number": 5,
+      "suffix": "M+",
+      "label": "Views Generated"
+    },
+    {
+      "id": "projects",
+      "number": 120,
+      "suffix": "+",
+      "label": "Projects Completed"
+    },
+    {
+      "id": "clients",
+      "number": 35,
+      "suffix": "+",
+      "label": "Happy Clients"
+    },
+    {
+      "id": "experience",
+      "number": 4,
+      "suffix": "+",
+      "label": "Years Experience"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "test-1",
+      "name": "Sarah Jenkins",
+      "role": "Creator & YouTuber",
+      "company": "1.2M Subscribers",
+      "comment": "Working with Alex changed everything. Our average viewer retention jumped from 42% to 58% in the first month. He doesn't just edit; he understands pacing, storytelling, and what keeps people watching.",
+      "avatar": "SJ"
+    },
+    {
+      "id": "test-2",
+      "name": "Marcus Chen",
+      "role": "Marketing Director",
+      "company": "Velo Digital",
+      "comment": "Alex delivered our commercial promos on a tight timeline, and the quality was outstanding. His sound design and color grading are top-tier. He's professional, communicates well, and hits every deadline.",
+      "avatar": "MC"
+    },
+    {
+      "id": "test-3",
+      "name": "Elena Rostova",
+      "role": "Content Lead",
+      "company": "Startup Hub",
+      "comment": "Alex's vertical short-form edits are pure gold. He knows exactly how to capture attention in the first second and design captions that look modern. Our short-form reach increased by 200% under his edits.",
+      "avatar": "ER"
+    }
+  ],
+  "contact": {
+    "email": "alex.thorne.edits@gmail.com",
+    "phone": "+1 (555) 019-2834",
+    "whatsapp": "https://wa.me/15550192834",
+    "address": "Los Angeles, CA (Available for Remote Work Globally)"
+  },
+  "socials": [
+    {
+      "platform": "email",
+      "name": "Email",
+      "url": "mailto:alex.thorne.edits@gmail.com",
+      "icon": "mail",
+      "enabled": true
+    },
+    {
+      "platform": "linkedin",
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/alex-thorne-edits",
+      "icon": "linkedin",
+      "enabled": true
+    },
+    {
+      "platform": "whatsapp",
+      "name": "WhatsApp",
+      "url": "https://wa.me/15550192834",
+      "icon": "message-circle",
+      "enabled": true
+    },
+    {
+      "platform": "youtube",
+      "name": "YouTube",
+      "url": "https://youtube.com/c/alex-thorne-edits",
+      "icon": "youtube",
+      "enabled": false
+    },
+    {
+      "platform": "instagram",
+      "name": "Instagram",
+      "url": "https://instagram.com/alex-thorne-edits",
+      "icon": "instagram",
+      "enabled": false
+    }
+  ]
+}
