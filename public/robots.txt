@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://alexthorne-edits.com/sitemap.xml
+Sitemap: https://gandharjoshi-portfolio.laravel.cloud/sitemap.xml

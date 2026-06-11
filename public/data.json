@@ -1,11 +1,11 @@
 {
   "personal": {
-    "name": "Alex Thorne",
-    "title": "Professional Video Editor & Storyteller",
+    "name": "Gandhar Joshi",
+    "title": "Professional Video Editor & Graphic Designer",
     "experience": "4+ Years of Professional Experience",
     "experienceYears": 4,
     "tagline": "Crafting Videos That Keep People Watching.",
-    "description": "I specialize in high-retention video editing for creators, brands, and agencies. From dynamic YouTube storytelling to cinematic commercials and snappy short-form content, I build narratives that capture attention in the first 3 seconds and keep viewers hooked until the end.",
+    "description": "I specialize in high-retention video editing for creators, brands, and agencies. From dynamic YouTube storytelling to podcasts and snappy short-form content, I build narratives that capture attention in the first 3 seconds and keep viewers hooked until the end.",
     "profileImage": "/images/profile.png",
     "cta": {
       "primary": {
@@ -138,12 +138,6 @@
       "label": "Projects Completed"
     },
     {
-      "id": "clients",
-      "number": 35,
-      "suffix": "+",
-      "label": "Happy Clients"
-    },
-    {
       "id": "experience",
       "number": 4,
       "suffix": "+",
@@ -180,7 +174,7 @@
     "email": "alex.thorne.edits@gmail.com",
     "phone": "+1 (555) 019-2834",
     "whatsapp": "https://wa.me/15550192834",
-    "address": "Los Angeles, CA (Available for Remote Work Globally)"
+    "address": "Mumbai"
   },
   "socials": [
     {
@@ -193,28 +187,14 @@
     {
       "platform": "linkedin",
       "name": "LinkedIn",
-      "url": "https://linkedin.com/in/alex-thorne-edits",
+      "url": "https://linkedin.com/in/",
       "icon": "linkedin",
       "enabled": true
     },
     {
-      "platform": "whatsapp",
-      "name": "WhatsApp",
-      "url": "https://wa.me/15550192834",
-      "icon": "message-circle",
-      "enabled": true
-    },
-    {
-      "platform": "youtube",
-      "name": "YouTube",
-      "url": "https://youtube.com/c/alex-thorne-edits",
-      "icon": "youtube",
-      "enabled": false
-    },
-    {
       "platform": "instagram",
       "name": "Instagram",
-      "url": "https://instagram.com/alex-thorne-edits",
+      "url": "https://instagram.com/al",
       "icon": "instagram",
       "enabled": false
     }

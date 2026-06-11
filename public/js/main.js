@@ -1,5 +1,5 @@
 /**
- * Alex Thorne - Video Editor Portfolio JS Logic
+ * Gandhar Joshi - Video Editor Portfolio JS Logic
  * High-performance, clean, modular JavaScript.
  */
 
@@ -176,8 +176,8 @@ function setupEventListeners() {
 // Populate Website Content
 function populateWebsite(data) {
   // 1. Personal & Hero Section
-  DOM.heroTagline.innerHTML = `<span>${data.personal.tagline}</span>`;
-  DOM.heroDesc.textContent = data.personal.description;
+  if (DOM.heroTagline) DOM.heroTagline.innerHTML = `<span>${data.personal.tagline}</span>`;
+  if (DOM.heroDesc) DOM.heroDesc.textContent = data.personal.description;
   
   if (DOM.heroPrimaryCTA) {
     DOM.heroPrimaryCTA.textContent = data.personal.cta.primary.text;
@@ -212,20 +212,26 @@ function populateWebsite(data) {
   DOM.tickerTrack.innerHTML = tickerHtml;
 
   // 2. About & Experience Section
-  DOM.aboutDesc.textContent = data.personal.description;
-  DOM.experienceYears.textContent = `${data.personal.experienceYears}+`;
-  DOM.experienceText.textContent = `Years editing professional formats`;
-  DOM.profileImg.src = data.personal.profileImage;
-  DOM.profileImg.alt = data.personal.name;
+  if (DOM.aboutDesc) DOM.aboutDesc.textContent = data.personal.description;
+  if (DOM.experienceYears) DOM.experienceYears.textContent = `${data.personal.experienceYears}+`;
+  if (DOM.experienceText) DOM.experienceText.textContent = `Years editing professional formats`;
+  if (DOM.profileImg) {
+    DOM.profileImg.src = data.personal.profileImage;
+    DOM.profileImg.alt = data.personal.name;
+  }
 
   // 3. Showreel Section
-  DOM.showreelThumb.src = data.personal.showreel.thumbnail;
-  DOM.showreelThumb.alt = data.personal.showreel.title;
-  DOM.showreelTitle.textContent = data.personal.showreel.title;
-  DOM.showreelDuration.textContent = data.personal.showreel.duration;
-  DOM.showreelContainer.addEventListener('click', () => {
-    openLightbox(data.personal.showreel.videoUrl);
-  });
+  if (DOM.showreelThumb) {
+    DOM.showreelThumb.src = data.personal.showreel.thumbnail;
+    DOM.showreelThumb.alt = data.personal.showreel.title;
+  }
+  if (DOM.showreelTitle) DOM.showreelTitle.textContent = data.personal.showreel.title;
+  if (DOM.showreelDuration) DOM.showreelDuration.textContent = data.personal.showreel.duration;
+  if (DOM.showreelContainer) {
+    DOM.showreelContainer.addEventListener('click', () => {
+      openLightbox(data.personal.showreel.videoUrl);
+    });
+  }
 
   // 4. Services Offered
   let servicesHtml = '';
@@ -241,7 +247,7 @@ function populateWebsite(data) {
       </div>
     `;
   });
-  DOM.servicesGrid.innerHTML = servicesHtml;
+  if (DOM.servicesGrid) DOM.servicesGrid.innerHTML = servicesHtml;
 
   // 5. Featured Projects & Filters
   renderPortfolioFilters(data.projects);
@@ -257,7 +263,7 @@ function populateWebsite(data) {
       </div>
     `;
   });
-  DOM.statsGrid.innerHTML = statsHtml;
+  if (DOM.statsGrid) DOM.statsGrid.innerHTML = statsHtml;
 
   // 7. Testimonials Section
   let testimonialsHtml = '';
@@ -275,19 +281,24 @@ function populateWebsite(data) {
       </div>
     `;
   });
-  DOM.testimonialsSlider.innerHTML = testimonialsHtml;
+  if (DOM.testimonialsSlider) DOM.testimonialsSlider.innerHTML = testimonialsHtml;
 
   // 8. Contact Details & Social Links
-  DOM.contactEmail.textContent = data.contact.email;
-  DOM.contactEmail.href = `mailto:${data.contact.email}`;
-  DOM.contactPhone.textContent = data.contact.phone;
-  DOM.contactPhone.href = `tel:${data.contact.phone.replace(/[^+\d]/g, '')}`;
-  
-  DOM.contactAddress.innerHTML = `
-    <span style="display: flex; align-items: center; gap: 8px;">
-      ${SVGIcons.mapPin} ${data.contact.address}
-    </span>
-  `;
+  if (DOM.contactEmail) {
+    DOM.contactEmail.textContent = data.contact.email;
+    DOM.contactEmail.href = `mailto:${data.contact.email}`;
+  }
+  if (DOM.contactPhone) {
+    DOM.contactPhone.textContent = data.contact.phone;
+    DOM.contactPhone.href = `tel:${data.contact.phone.replace(/[^+\d]/g, '')}`;
+  }
+  if (DOM.contactAddress) {
+    DOM.contactAddress.innerHTML = `
+      <span style="display: flex; align-items: center; gap: 8px;">
+        ${SVGIcons.mapPin} ${data.contact.address}
+      </span>
+    `;
+  }
 
   // Render social handles (filter out inactive platform properties)
   let socialLinksHtml = '';
@@ -307,12 +318,12 @@ function populateWebsite(data) {
       `;
     }
   });
-  DOM.socialLinksContainer.innerHTML = socialLinksHtml;
-  DOM.footerSocials.innerHTML = footerSocialsHtml;
+  if (DOM.socialLinksContainer) DOM.socialLinksContainer.innerHTML = socialLinksHtml;
+  if (DOM.footerSocials) DOM.footerSocials.innerHTML = footerSocialsHtml;
 
   // 9. Footer Text
-  DOM.footerDesc.textContent = `${data.personal.name} is a professional video editor with 4+ years of expertise. Making high-end corporate, commercials, shorts, and YouTube productions.`;
-  DOM.footerYear.textContent = new Date().getFullYear();
+  if (DOM.footerDesc) DOM.footerDesc.textContent = `${data.personal.name} is a professional video editor with 4+ years of expertise. Making high-end corporate, commercials, shorts, and YouTube productions.`;
+  if (DOM.footerYear) DOM.footerYear.textContent = new Date().getFullYear();
 
   // Setup animations scroll trigger
   setupScrollReveal();
@@ -332,7 +343,7 @@ function renderPortfolioFilters(projects) {
       </button>
     `;
   });
-  DOM.portfolioFilters.innerHTML = filterButtonsHtml;
+  if (DOM.portfolioFilters) DOM.portfolioFilters.innerHTML = filterButtonsHtml;
 
   // Click handler
   document.querySelectorAll('.filter-btn').forEach(btn => {
@@ -374,7 +385,7 @@ function renderPortfolioGrid(projects) {
     `;
   });
 
-  DOM.portfolioGrid.innerHTML = gridHtml;
+  if (DOM.portfolioGrid) DOM.portfolioGrid.innerHTML = gridHtml;
 
   // Add click listeners to play projects in modal
   document.querySelectorAll('.portfolio-item').forEach(item => {
@@ -598,7 +609,7 @@ function handleFormSubmit(e) {
 
   setTimeout(() => {
     // Success State
-    showFormStatus('success', 'Message sent successfully! Alex will reply within 24 hours.');
+    showFormStatus('success', 'Message sent successfully! Gandhar will reply within 24 hours.');
     form.reset();
     submitBtn.disabled = false;
     btnText.textContent = originalBtnText;
